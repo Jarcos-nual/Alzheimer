@@ -1,26 +1,26 @@
-# Logging
+# Logging & Configuration
+
 loguru==0.7.3
-
-# Visualization
-matplotlib
-
-# Numerical computing
-numpy
-
-# Data manipulation
-pandas
-
-# Machine Learning
-scikit-learn
-
-# Project scaffolding
-cookiecutter_data_science==2.3.0
-
-# Jupyter kernel
-ipykernel
-
 omegaconf==2.3.0
 
-gdown==5.2.0
+# Visualization
+matplotlib>=3.10.8  # versión reciente y estable
 
-typer==0.20.1
+# Numerical Computing
+numpy>=2.0.0        # versión mayor estable
+
+# Data Manipulation
+pandas==2.3.3
+
+# Machine Learning
+scikit-learn>=1.5.0
+
+# Project Scaffolding
+cookiecutter-data-science==2.3.0
+
+# Jupyter & Development
+ipykernel>=6.29.0
+
+# Utilities
+gdown==5.2.0        # descarga de datasets desde Google Drive
+typer==0.20.1       # CLI para scripts

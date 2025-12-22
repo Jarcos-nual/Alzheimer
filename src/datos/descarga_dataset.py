@@ -1,4 +1,4 @@
-# src/data/download_dataset.py
+# src/datos/descarga_dataset.py
 import gdown
 from loguru import logger
 from src.utils import paths
