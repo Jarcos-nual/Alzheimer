@@ -1,0 +1,20 @@
+# Logging
+loguru
+
+# Visualization
+matplotlib
+
+# Numerical computing
+numpy
+
+# Data manipulation
+pandas
+
+# Machine Learning
+scikit-learn
+
+# Project scaffolding
+cookiecutter_data_science==2.3.0
+
+# Jupyter kernel
+ipykernel
