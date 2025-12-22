@@ -59,10 +59,11 @@ create_environment:
 #################################################################################
 
 
-## Make dataset
+## obten el set de datos en raw
+
 .PHONY: data
-data: requirements
-	$(PYTHON_INTERPRETER) alzheimer/dataset.py
+data: 
+	$(PYTHON_INTERPRETER) -m scripts.get_dataset
 
 
 #################################################################################

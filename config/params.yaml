@@ -1,0 +1,25 @@
+paths:
+  data: "./data"
+  raw: "${paths.data}/raw" 
+  interim: "${paths.data}/interim"
+  processed: "${paths.data}/processed"
+  external: "${paths.data}/external"
+  prediction: "${paths.data}/prediction"
+  synthetic: "${paths.data}/synthetic"
+  models: "./models"
+  reports: "./reports"
+  figures: "${paths.reports}/figures"
+
+download:
+  dataset_id: "1YYV3qvaKk0f6MbyVjVwQnhsQqPSWBIA8"
+
+data:
+  raw_data_file: "${paths.raw}/data_raw.csv"
+
+metadata:
+  author: "Juan Carlos Perez Nava"
+  project: "Alzheimer"
+  version: "1.0.0"
+  url: "https://github.com/Jarcos-nual/Alzheimer"
+  license_name: "MIT License"
+  license_url: "https://opensource.org/licenses/MIT"

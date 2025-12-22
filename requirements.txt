@@ -1,5 +1,5 @@
 # Logging
-loguru
+loguru==0.7.3
 
 # Visualization
 matplotlib
@@ -18,3 +18,9 @@ cookiecutter_data_science==2.3.0
 
 # Jupyter kernel
 ipykernel
+
+omegaconf==2.3.0
+
+gdown==5.2.0
+
+typer==0.20.1
